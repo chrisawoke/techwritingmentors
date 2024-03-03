@@ -11,9 +11,9 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
       fontSize: {
-        md: "1.6rem",
-        lg: ["2.2rem", "1.3"],
-        "5xl": ["8rem", "1.2"],
+        md: "1.2rem",
+        lg: ["2rem", "1.2"],
+        "5xl": ["6rem", "1.2"],
       },
       colors: {
         backGround: "#FAFCFF",
