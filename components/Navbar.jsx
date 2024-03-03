@@ -25,7 +25,7 @@ const Navbar = () => {
             className="flex items-center justify-center hover:text-brightBlue duration-500"
           >
             <PencilSquareIcon className="w-12 h-12 text-brightBlue" />
-            TechWritingPro
+            TechWritingMentors
           </Link>
         </div>
 
