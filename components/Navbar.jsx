@@ -8,7 +8,6 @@ import {
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/16/solid";
-import Button from "@/components/Button";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
