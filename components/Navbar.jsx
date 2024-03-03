@@ -18,8 +18,8 @@ const Navbar = () => {
 
   return (
     <header className="shadow-md w-full top-0 left-0 z-10">
-      <nav className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
-        <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800">
+      <nav className="md:flex items-center justify-between bg-white py-2 md:px-10 px-7">
+        <div className="font-bold text-xl cursor-pointer flex items-center text-gray-800">
           <Link
             href="/"
             className="flex items-center justify-center hover:text-brightBlue duration-500"
@@ -48,10 +48,10 @@ const Navbar = () => {
           }`}
         >
           {navLinks.map(({ id, link, title }) => (
-            <li key={id} className="md:ml-8 text-xl md:my-0 my-7">
+            <li key={id} className="md:ml-8 md:my-0 my-7">
               <Link
                 href={link}
-                className="text-gray-800 hover:text-brightBlue duration-500"
+                className="text-gray-800 hover:text-brightBlue duration-300 uppercase hover:font-bold"
                 onClick={toggleMenu}
               >
                 {title}
